@@ -123,6 +123,11 @@ ol {
   .left, .right {
     display: none;
   }
+  .title { font-size: 3em; }
+  .subtitle { font-size: 1.5em; }
+  .banner-hero {
+    background-position: center -12em;
+  }
 }
 
 /* ==========================================================================
