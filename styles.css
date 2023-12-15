@@ -36,8 +36,49 @@ nav h1 {
 
 nav ul {
   list-style-type: none;
+  display: none;
   margin: 0;
   padding: 0;
+}
+
+#menu-toggle:checked + label + ul {
+  display: block;
+}
+
+#menu-icon {
+  cursor: pointer;
+  font-size: 2em;
+  line-height: 1.5;
+  transition: color 0.3s ease,  transform 0.3s ease;
+}
+
+#menu-icon::before {
+  content: '☰';
+}
+
+#menu-icon.open::before {
+  content: '✕';
+}
+
+#menu-icon:hover {
+  color: #64ffda;
+  transform: scale(1.1);
+}
+
+nav input {
+  display: none; /* Hide checkbox */
+}
+
+@media screen and (min-width: 768px) {
+  #menu-toggle,
+  #menu-icon {
+    display: none !important;
+  }
+  
+  nav ul {
+    display: block !important;
+    justify-content: space-between;
+  }
 }
 
 nav ul li {
@@ -344,3 +385,4 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
