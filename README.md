@@ -1,2 +1,2 @@
-# clark
-Webpage for a massage therapist
+# Weaver Wellness
+Webpage for Weaver Wellness
