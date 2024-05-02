@@ -1,4 +1,4 @@
-html {
+html, body {
   scroll-behavior: smooth;
 }
 
@@ -240,14 +240,11 @@ section h2 {
 }
 
 .service:nth-child(odd) {
-  background-color: #c8e6c9; /* Light Green */
+  background-color: #e7e7e7; /* service odd */
 }
 
 .service:nth-child(even) {
-  background-color: #e0f2f1; /* Mint Blue */
-}
-.service:nth-child(even):hover {
-  background-color: #b2ebf2; /* Hover color for Mint Blue */
+  background-color: #c7c7c7; /* service even */
 }
 
 .service:before {
@@ -263,7 +260,7 @@ section h2 {
 }
 
 .service:hover {
-  background-color: #a5d6a7; /* Hover color for Light Green */
+  outline: 2px solid rgb(70, 70, 70);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -278,7 +275,7 @@ section h2 {
 
 .extra-service {
   flex-basis: calc(33.33% - 20px);
-  background-color: #a0b7c4;
+  background-color: #c0cfd8;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -301,7 +298,7 @@ section h2 {
 }
 
 .extra-service:hover {
-  background-color: #78909c; /* Hover color for Lighter Blue Grey */
+  outline: 2px solid #778e99; /* Hover color for Lighter Blue Grey */
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
