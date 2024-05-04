@@ -213,12 +213,12 @@ section h2 {
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   gap: 20px;
   justify-content: center;
   align-content: center;
   margin: 0 auto;
-  max-width: 800px; /* Adjust the maximum width as needed */
+  max-width: 80%; /* Adjust the maximum width as needed */
   padding: 0 20px;
   margin-bottom: 40px;
 }
