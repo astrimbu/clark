@@ -3,185 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta property="og:title" content="Weaver Wellness">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:type" content="website">
-    <link rel="manifest" href="site.webmanifest">
-
-    <title>Weaver Wellness</title>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
-    <link rel="stylesheet" href="styles.css">
+    <title>Weaver Wellness - Massage Therapy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Navigation -->
-    <nav> 
+    <header>
         <div class="container">
-            <h1>Weaver Wellness</h1>
-            <input type="checkbox" id="menu-toggle" display="none">
-            <label for="menu-toggle" id="menu-icon"></label>
+            <h1 class="logo">Weaver <span>Wellness</span></h1>
+            <p>Experience the healing power of touch</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#book">Book Now</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h1>Weaver</h1>
-            <h1>Wellness</h1>
-            <!-- <p>Balancing Life's Forces: Discovering Harmony Through Massage</p> -->
-            <br />
-            <a href="#services" class="hero-btn btn">Explore Services</a>
-        </div>
-    </section>
+    <main>
+        <section id="book">
+            <div class="container">
+                <h2>Book Now</h2>
+                <p>Ready to experience the healing power of massage? Book your appointment now!</p>
+                <br>
+                <button onclick="alert('Redirecting to booking page...')">Book Appointment</button>
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Welcome to Weaver Wellness, where we embrace the profound art of healing through the transformative power of touch...</p>
-                    <p>With over a decade of dedicated experience, our certified massage therapists are skilled practitioners committed to delivering personalized and impactful massage therapy...</p>
-                    <p>Guided by the principles of holistic wellness, our approach mirrors the harmony depicted in the Vitruvian Man, fostering an environment where healing takes center stage...</p>
-                </div>
-                <div class="about-image">
-                    <img src="clark.jpg" alt="Clark, Massage Therapist">
-                </div>
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Deep Tissue Massage</li>
+                    <li>Specific Techniques by Request</li>
+                    <li>Myofascial Release</li>
+                    <li>Trigger Point</li>
+                    <li>Stretching</li>
+                    <li>Decompression</li>
+                    <li>Massage Gun</li>
+                    <li>Swedish</li>
+                    <li>Breathwork</li>
+                    <li>Energy Work</li>
+                    <li>Cupping</li>
+                    <li>Hot Towels</li>
+                    <li>Aromatherapy</li>
+                </ul>
             </div>
-            <p>Feel free to <a href="#contact">reach out</a> with any inquiries or to schedule your session. We eagerly anticipate the opportunity to be of service on your journey to wellness!</p>
-        </div>
-    </section>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="services-container">
-            <h2>Our Services</h2>
-            <div class="service">
-                <h3>Deep Tissue Massage</h3>
-                <p>Address muscle tension and discomfort with our deep tissue massage...</p>
+        <section id="about">
+            <div class="container">
+                <h2>About Weaver Wellness</h2>
+                <p>At Weaver Wellness, we believe in the profound art of healing through the transformative power of touch. Our skilled therapists are dedicated to helping you achieve balance, relaxation, and wellness through our range of massage therapies and holistic treatments.</p>
+                <br>
+                <p>We understand that each individual's needs are unique, which is why we offer a variety of techniques and approaches to address your specific concerns. Whether you're seeking relief from chronic pain, stress reduction, or simply a moment of tranquility in your busy life, we're here to support your journey to wellness.</p>
             </div>
-            <div class="service">
-                <h3>Specific Techniques by Request</h3>
-                <p>Choose specific massage techniques based on your preferences and needs.</p>
-            </div>
-            <div class="service">
-                <h3>Myofascial Release</h3>
-                <p>Targets the fascia, the connective tissue surrounding muscles, for improved flexibility.</p>
-            </div>
-            <div class="service">
-                <h3>Trigger Point</h3>
-                <p>Focused pressure on trigger points to alleviate muscle tension and pain.</p>
-            </div>
-            <div class="service">
-                <h3>Stretching</h3>
-                <p>Includes assisted stretching to enhance flexibility and range of motion.</p>
-            </div>
-            <div class="service">
-                <h3>Decompression</h3>
-                <p>Techniques aimed at relieving pressure and tension in specific areas of the body.</p>
-            </div>
-            <div class="service">
-                <h3>Massage Gun</h3>
-                <p>Utilizes percussive therapy for targeted muscle relief, available upon request.</p>
-            </div>
-            <div class="service">
-                <h3>Swedish</h3>
-                <p>Traditional massage with long strokes and kneading to promote relaxation.</p>
-            </div>
-            <div class="service">
-                <h3>Breathwork</h3>
-                <p>Integrates breath awareness techniques for enhanced relaxation and stress relief.</p>
-            </div>
-            <div class="service">
-                <h3>Energy Work</h3>
-                <p>Focuses on balancing and enhancing the body's energy flow for overall well-being.</p>
-            </div>
-        </div>
+        </section>
 
-        <div class="extra-services-container">
-            <div class="extra-service">
-                <h3>Cupping</h3>
-                <p>Enhance your massage with the therapeutic benefits of cupping therapy.</p>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form onsubmit="alert('Message sent!'); return false;">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <br>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: info@weaverwellness.com</p>
             </div>
-            <div class="extra-service">
-                <h3>Hot Towels</h3>
-                <p>Indulge in the soothing comfort of hot towels during your massage session.</p>
-            </div>
-            <div class="extra-service">
-                <h3>Aromatherapy</h3>
-                <p>Immerse yourself in the calming and rejuvenating scents of essential oils.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Visit Us</h3>
-                    <p>123 Serenity Lane<br>Bartlett, IL 60103</p>
-                    <h3>Call Us</h3>
-                    <p>(555) 123-4567</p>
-                    <h3>Email Us</h3>
-                    <p>clark@domain.com</p>
-                    <h3>Business Hours</h3>
-                    <p>Monday - Friday: 9 AM - 6 PM<br>Saturday: 10 AM - 4 PM<br>Sunday: Closed</p>
-                </div>
-                <div class="contact-form">
-                    <h3>Send Us a Message</h3>
-                    <form action="process_contact_form.php" method="post">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-    
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-    
-                        <label for="subject">Subject:</label>
-                        <input type="text" id="subject" name="subject" required>
-    
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-    
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
+        <section id="location">
+            <div class="container">
+                <h2>Location & Hours</h2>
+                <p>123 Healing Street, Wellness City, WC 12345</p>
+                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                <p>Saturday: 10:00 AM - 5:00 PM</p>
+                <p>Sunday: Closed</p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Weaver Wellness. All rights reserved.</p>
+            <p>&copy; 2024 Weaver Wellness. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var menuToggle = document.getElementById('menu-toggle');
-            var navList = document.querySelector('nav ul');
-
-            menuToggle.addEventListener('change', function () {
-                navList.classList.toggle('show', menuToggle.checked);
-            });
-
-            var menuIcon = document.getElementById('menu-icon');
-            menuIcon.addEventListener('click', function () {
-                this.classList.toggle('open');
-            });
-        });
-    </script>
-
 </body>
 </html>
